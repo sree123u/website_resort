@@ -1,0 +1,20 @@
+.carousel-inner{
+    height: 600px;
+}
+
+.item, img{
+    height: 100% ;
+    width:  100% ;
+    border: 1px solid white;
+}
+#logo{
+    height: 40px;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+  #wifi
+  {
+    height: 50px; 
+  }
