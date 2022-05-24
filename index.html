@@ -1,231 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title> Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  
+  
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+ 
+  <link href="assets/css/style.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+ 
 </head>
+
 <body>
-    
-   
 
+ <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <img src="./images/Group 6.png" class = "responsive" alt="" id="logo">
 
+      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+        <ul class="navbar-nav">
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light>
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img id="logo" src="./images/Group 6.png" alt="..." height="2">
-              </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Rooms
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="single-room.html">Single room</a></li>
-                  <li><a class="dropdown-item" href="double-room.html">Double room</a></li>
-                  
-                </ul>
-              </li>
-             
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
 
+          <li class="nav-item">
+            <a class="nav-link " href="about.html">About</a>
+          </li>
 
+          <li class="nav-item">
+            <a class="nav-link " href="services.html">Services</a>
+          </li>
 
-
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./images/resort_beach.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rooms</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item " href="single-room.html">Single Rooms</a>
+              <a class="dropdown-item " href="double-room.html">Double Rooms</a>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./images/resort_food.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./images/resort_room.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <main id="main">
-      <!-- ======= Services Section ======= -->
-    <section class="section-services section-t8">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="title-wrap d-flex justify-content-between">
-                <div class="title-box">
-                  <h2 class="title-a">OUR FEATURES</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="card-box-c foo">
-                <div class="card-header-c d-flex">
-                  <div class="card-box-ico">
-                    <span class="bi bi-cart"></span>
-                  </div>
-                  <div class="card-title-c align-self-center">
-                    <h2 class="title-c">    Welcome to Arrano</h2>
-                  </div>
-                </div>
-                <div class="card-body-c">
-                  <p class="content-c">
-                    The resort also boasts of a forest trekking trail that one can access through the property. This resort is a pet-friendly resort that allows families to bring along their creature companions for a memorable, relaxing and fun-filled holiday.
-
-                    Wayanad as a destination offers varied things for a tourist to do. One may find the right activity to suit one’s taste here – from a leisurely sight-seeing to an action packed and adventurous trek up Chembara peak.
-                    
-                    Come stay with us and experience Wayanad – one of the few untouched hill terrains in the western ghatts.
-                  </p>
-                </div>
-                
-              </div>
-            </div>
-           
-              </div>
-            </div>
-          </div>
-        </div>
-      </section><!-- End Services Section -->
-      <section class="section-testimonials section-t8 nav-arrow-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                  <div class="title-wrap d-flex justify-content-between">
-                    <div class="title-box">
-                      <h2 class="title-a">Testimonials</h2>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            <!-- Carousel wrapper -->
-<div id="carouselExampleControls" class="carousel slide text-center carousel-dark" data-mdb-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="rounded-circle shadow-1-strong mb-4"
-          src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
-          style="width: 150px;" />
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-8">
-            <h5 class="mb-3">Maria </h5>
-            <p>Photographer</p>
-            <p class="text-muted">
-              <i class="fas fa-quote-left pe-2"></i>
-              We had a wonderful stay at Arrano. The environment and the atmosphere helped us to relax. We had a very good stay."
-            </p>
-          </div>
-        </div>
-        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="far fa-star fa-sm"></i></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="contact-us.html">Contact</a>
+          </li>
         </ul>
       </div>
-      <div class="carousel-item">
-        <img class="rounded-circle shadow-1-strong mb-4"
-          src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
-          style="width: 150px;" />
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-8">
-            <h5 class="mb-3">John Doe</h5>
-            <p>Web Developer</p>
-            <p class="text-muted">
-              <i class="fas fa-quote-left pe-2"></i>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
-              nesciunt sint eligendi reprehenderit reiciendis.
-            </p>
-          </div>
-        </div>
-        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="far fa-star fa-sm"></i></li>
-        </ul>
+
+      <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
+        <i class="bi bi-search"></i>
+      </button>
+
+    </div>
+  </nav>
+ <div class="intro intro-carousel swiper position-relative">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/slide-1.jpg)">
+        <div class="overlay overlay-a"></div>
+        
       </div>
-      <div class="carousel-item">
-        <img class="rounded-circle shadow-1-strong mb-4"
-          src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-8">
-            <h5 class="mb-3">Anna </h5>
-            <p> Designer</p>
-            <p class="text-muted">
-              <i class="fas fa-quote-left pe-2"></i>
-              We had a wonderful stay at Arrano. The environment and the atmosphere helped us to relax. We had a very good stay."
-            </p>
-          </div>
-        </div>
-        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="fas fa-star fa-sm"></i></li>
-          <li><i class="far fa-star fa-sm"></i></li>
-        </ul>
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/slide-2.jpg)">
+        <div class="overlay overlay-a"></div>
+        
+      </div>
+      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/slide-3.jpg)">
+        <div class="overlay overlay-a"></div>
+       
       </div>
     </div>
-    
+    <div class="swiper-pagination"></div>
   </div>
-  <!-- Carousel wrapper -->
-         </div>
-    </section>
-</main>   
-    
-<footer>
+  <section class="section-services section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Our Features</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+            <div class="card-body-c">
+              <p class="content-c">
+                The vast majority of the ski resorts have been developed in the open air, and adjacent to mountains, and villages. However, there are many indoor ski resorts e.g. Harbin Wanda Indoor Ski and Winter Sports Resort in 
+                China that have drawn international attention. Likewise, Ski Dubai is also a popular indoor ski resort. Interestingly, some of the indoor ski resorts have the potential to banish the need for people to visit the mountains altogether!
+
+ 
+
+                Certainly, ski resorts attract international tourists; and therefore, make a good contribution to the local and national economies. However, many critics argue that that the development of ski resorts impact on the natural ecosystem and have contributed to the urbanisation of mountainous areas in many parts of the world.
+              </p>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+ 
+ <section class="section-testimonials section-t8 nav-arrow-a">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Testimonials</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="testimonial-carousel" class="swiper">
+        <div class="swiper-wrapper">
+
+          <div class="carousel-item-a swiper-slide">
+            <div class="testimonials-box">
+              <div class="row">
+                <div class="col-sm-12 col-md-6">
+                  <div class="testimonial-img">
+                    <img src="assets/img/testimonial-1.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <div class="testimonial-ico">
+                    <i class="bi bi-chat-quote-fill"></i>
+                  </div>
+                  <div class="testimonials-content">
+                    <p class="testimonial-text">
+                        Fantastic food & co-operative staff. The pool & beach are maintained very well. The ambience of the hotel is very cozy. The staff is very kind and honest and the room service is very fast. 
+                        I enjoyed dancing in the discotheque. The tea-party at the beach was fantastic!
+                    </p>
+                  </div>
+                  <div class="testimonial-author-box">
+                    <img src="assets/img/mini-testimonial-1.jpg" alt="" class="testimonial-avatar">
+                    <h5 class="testimonial-author">- Alex</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item-a swiper-slide">
+            <div class="testimonials-box">
+              <div class="row">
+                <div class="col-sm-12 col-md-6">
+                  <div class="testimonial-img">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <div class="testimonial-ico">
+                    <i class="bi bi-chat-quote-fill"></i>
+                  </div>
+                  <div class="testimonials-content">
+                    <p class="testimonial-text">
+                        Resort is nicely maintained. Location of the resort is in natural hilly area. Hospitality is so 
+                        good that want to stay more. Food quality is also good. Cleanliness and maintenance is very good.
+                    </p>
+                  </div>
+                  <div class="testimonial-author-box">
+                    <img src="assets/img/mini-testimonial-2.jpg" alt="" class="testimonial-avatar">
+                    <h5 class="testimonial-author">- Killedar </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="testimonial-carousel-pagination carousel-pagination"></div>
+
+    </div>
+  </section>
+  <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -237,7 +213,9 @@
               <li class="list-inline-item">
                 <a href="#">About</a>
               </li>
-              
+              <li class="list-inline-item">
+                <a href="#">Services</a>
+              </li>
               <li class="list-inline-item">
                 <a href="#">Contact</a>
               </li>
@@ -274,22 +252,21 @@
             </p>
           </div>
           <div class="credits">
-            
-            Designed by  Sreelakshmi
+           
+            Designed by Sreelakshmi
           </div>
         </div>
       </div>
     </div>
-  </footer>           
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script></body>
-</html>
+  </footer><!-- End  Footer -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script></body>
+  </html>
